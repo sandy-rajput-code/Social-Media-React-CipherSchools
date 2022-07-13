@@ -1,0 +1,49 @@
+.bar {
+  height: 100%;
+  width: 20%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  overflow: auto;
+}
+
+.heading {
+  width: 100%;
+  height: 10%;
+  background-color: var(--mainTeaGreen);
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.heading h2 {
+  margin: 0;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--mainGreen);
+  margin: 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: #ccc solid 2px;
+}
+
+.user:hover{
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 800px) {
+  .user p {
+    visibility: hidden;
+    width: 0;
+  }
+}

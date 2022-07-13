@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  margin-top: 15vh;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card{
+  width: 70%;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.user-card:hover{
+  background-color: #ccc;
+}
+
+.avatar{
+  width: 80px;
+  height: 80px;
+  margin: 25px;
+  border-radius: 100%;
+  background-color: var(--mainGreen);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.icon{
+
+  justify-self: flex-end;
+  margin: 25px;
+  border: black solid 3px;
+  border-style: dashed;
+  padding: 12px 10px;
+  border-radius: 14px;
+}
+
+.icon:hover{
+  background-color: var(--mainCeladon);
+}
+

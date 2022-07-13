@@ -1,0 +1,31 @@
+.icon{
+  border : black ;
+  border-style: dashed;
+  border-radius: 10px;
+  height: 15px;
+  width: 15px;
+  padding: 10px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+body hr{
+  margin: 0;
+}
+
+.container:hover{
+  background-color: #CCCC;
+}
+
+.container p{
+  margin-left: 20px;
+}
+
+.button{
+  margin: 10px
+}

@@ -1,0 +1,12 @@
+.container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}

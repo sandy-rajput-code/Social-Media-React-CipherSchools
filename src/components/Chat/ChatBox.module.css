@@ -1,0 +1,80 @@
+.container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.heading {
+  width: 100%;
+  height: 10%;
+  background-color: var(--mainTeaGreen);
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.form {
+  width: 100%;
+  height: 10%;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mainDarkSeaGreen);
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.form input {
+  width: 80%;
+  height: 60%;
+  border-radius: 20px;
+  margin-left: 1rem;
+  outline: none;
+  border: none;
+  border: var(--mainGreen) solid 3px;
+  font-size: 1rem;
+}
+
+.temp{
+  margin-top: 10vh;
+}
+
+.body {
+  height: 70%;
+  width: 100%;
+  overflow: auto;
+}
+
+.mesdiv-right{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mesdiv-left{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.messages {
+  height: fit-content;
+  width: 10%;
+  margin: 0.5rem;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 1rem;
+  border-radius: 14px;
+  width: fit-content;
+  max-width: 40%;
+}
+
+.my-side {
+  background-color: var(--mainGreen);
+  color: white;
+}
+
+.orther-side {
+  background-color: #ccc;
+  margin-left: 2%;
+}

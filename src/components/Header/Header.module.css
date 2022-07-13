@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  background-color: var(--mainDarkSeaGreen);
+  color:white;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}

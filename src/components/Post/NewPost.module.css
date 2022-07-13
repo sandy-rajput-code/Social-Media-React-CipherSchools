@@ -1,0 +1,16 @@
+.textarea {
+  height: 200px;
+  width: 100%;
+  resize: none;
+  margin: 1rem 0;
+  margin-bottom: 1rem;
+  font-size: large;
+}
+
+.button {
+  height: 50px;
+  min-width: 80px;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}

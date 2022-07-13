@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15vh;
+  width: 100%;
+}
+
+.container h1{
+  width: 100%;
+  text-align: center;
+}
+
+.body{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.pusher{
+  width: 15%;
+  margin: 0;
+}

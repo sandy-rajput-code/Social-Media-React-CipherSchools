@@ -1,0 +1,23 @@
+.box{
+  min-height: 10rem;
+  max-height: 20rem;
+  width: 100%;
+  overflow: auto;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.button{
+  height: fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 14px;
+  border: var(--mainGreen) solid 3px;
+}
+
+.button:hover{
+  background-color: #fe2c54;
+}

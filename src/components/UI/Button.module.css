@@ -1,0 +1,16 @@
+.button {
+  border-radius: 14px;
+  border: var(--mainCeladon);
+  background-color: var(--mainCeladon);
+  color: white;
+  margin: 0.5rem 1rem;
+  padding: 10px;
+  height: fit-content;
+}
+
+
+.button:hover {
+  border: var(--mainGreen) solid 3px;
+  background-color: white;
+  color: #000;
+}
